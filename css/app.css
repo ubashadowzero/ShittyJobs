@@ -14,8 +14,21 @@ html, body {
 	width: 100%;
 }
 
+.header__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
-/* Vista Mobile*/
+.header__logo {
+	width: 25%;
+	background-color: pink;
+}
+
+.header__nav {
+	width: 75%;
+	background-color: black;
+}
 
 
 /* Menor a 320px una imagen*/
@@ -42,6 +55,3 @@ html, body {
 			background-color: green;
 	}
 }
-
-/* Vista Mobile*/
-
