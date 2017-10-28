@@ -14,18 +14,34 @@ html, body {
 	width: 100%;
 }
 
+
+/* Vista Mobile*/
+
+
 /* Menor a 320px una imagen*/
 
 @media screen and (max-width: 319px) {
 	body {
 		visibility: hidden;
+		background-color: red;
 	}
 }
 
 /*Mayor a 721px*/
 
-@media screen and (min-width: 721px) {
+@media screen and (min-width: 721px) and (max-width: 1080px) {
 	body {
 		visibility: hidden;
+			background-color: blue;
 	}
 }
+
+@media screen and (min-width: 1081px) {
+	body {
+		visibility: hidden;
+			background-color: green;
+	}
+}
+
+/* Vista Mobile*/
+
