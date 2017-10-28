@@ -14,42 +14,11 @@ html, body {
 	width: 100%;
 }
 
-header {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	header > #logo {
-		width: 25%;
-		padding: 1rem;
-		background-color: pink;
-	}
-
-	header > nav {
-		display: none;
-		width: 75%;
-	}
-
-	header > nav > ul > li {
-		list-style: none;
-		text-align: right;
-	}
-
-	header > #openMenu, header > #closeMenu {
-		font-size: 1.5rem;
-		padding: 1rem;
-	}
-
 /* Menor a 320px una imagen*/
 
 @media screen and (max-width: 319px) {
 	body {
-		display: none;
-		width: 100%;
-		height: 100%;
-		background-image: url('https://lenguajecss.com/p/css/propiedades/responsive-web-design.png');
+		visibility: hidden;
 	}
 }
 
@@ -57,9 +26,6 @@ header {
 
 @media screen and (min-width: 721px) {
 	body {
-		display: none;
-		width: 100%;
-		height: 100%;
-		background-image: url('https://lenguajecss.com/p/css/propiedades/responsive-web-design.png');
+		visibility: hidden;
 	}
 }
