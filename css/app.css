@@ -18,6 +18,11 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
 }
 
 .header__logo {
@@ -27,7 +32,12 @@ html, body {
 
 .header__nav {
 	width: 75%;
-	background-color: black;
+	background-color: yellow;
+	text-align: right;
+}
+
+.header__nav--ul {
+	list-style: none;
 }
 
 
@@ -36,7 +46,6 @@ html, body {
 @media screen and (max-width: 319px) {
 	body {
 		visibility: hidden;
-		background-color: red;
 	}
 }
 
@@ -45,13 +54,11 @@ html, body {
 @media screen and (min-width: 721px) and (max-width: 1080px) {
 	body {
 		visibility: hidden;
-			background-color: blue;
 	}
 }
 
 @media screen and (min-width: 1081px) {
 	body {
 		visibility: hidden;
-			background-color: green;
 	}
 }
